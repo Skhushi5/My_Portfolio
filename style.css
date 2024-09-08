@@ -8,7 +8,8 @@
 }
 .profile-pic{
     flex:1;
-    margin-right: 2%;
+    
+    margin-left: 7.5%;
 }
 .profile-pic img{
     max-height:50vh;
@@ -40,4 +41,66 @@
 .my-project{
     flex:1;
     margin-right:2%;
+}
+body::before{
+    content:"";
+    background-image: url("assets/theme7.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    opacity:0.5;
+    position: absolute;  
+    top: -100px;
+    left: 0;
+    right: 0;
+    bottom:-100px;;
+    z-index: -1;
+}
+body {
+    position: relative;  
+    margin: 0;
+}
+#intro-container{
+    margin-right:5vw;
+    padding: 1vw;
+    background-color: rgb(158, 211, 145);
+     
+    height:20vh;
+    width: 40vw;
+    text-align: center;
+    align-items: center;
+    display: grid;
+}
+#about-me{
+    margin:5vw;
+    padding: 1vw;
+    background-color: rgb(158, 211, 145);
+    margin-bottom: 2vh;
+    height:20vh;
+    margin-top: 2vh;
+    text-align: center;
+    align-items: center;
+    display: grid;
+}
+#my-skills{
+    margin:1vh 2vw 1vh 5vw;
+    padding: 1vw;
+    background-color: rgb(158, 211, 145);
+     
+    height:20vh;
+    width: 40vw;
+    text-align: center;
+    align-items: center;
+    display: grid;
+}
+#project{
+    margin:1vh 5vw 1vh 2vw;
+    padding: 1vw;
+    background-color: rgb(158, 211, 145);
+     
+    height:20vh;
+    width: 40vw;
+    text-align: center;
+    align-items: center;
+    display: grid;
 }
